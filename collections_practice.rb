@@ -29,4 +29,5 @@ end
 def find_a(words)
   word.find_all do |word|
     word[0] == "a"
+  end  
 end
