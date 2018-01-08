@@ -8,5 +8,5 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(integers)
-  integers.sort_by { |i| i >=1  }
+  integers.sort_by { |i| i.length >=1  }
 end
