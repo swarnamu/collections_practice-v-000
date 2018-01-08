@@ -20,5 +20,5 @@ def reverse_array(integers)
 end
 
 def kesha_maker(word)
-  word[2] = $
+  word[2] = "$"
 end
