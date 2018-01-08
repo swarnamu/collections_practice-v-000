@@ -12,5 +12,5 @@ def sort_array_char_count(integers)
 end
 
 def swap_elements(integers)
-  integers.sort { |a, b| integers[1], integers[2] = integers[2], integers[1] }
+  integers[1], integers[2] = integers[2], integers[1] }
 end
