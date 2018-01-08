@@ -18,3 +18,7 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_maker(word)
+  word[2] = $
+end
