@@ -37,3 +37,25 @@ def sum_array(integers)
   end
   sum
 end
+
+# using reduce method
+    # array.reduce(:+)
+
+  # using inject method (short)
+     # array.inject(:+)
+
+  # using inject method (long)
+     # array.inject do |sum,x|
+     #  sum + x
+     # end
+
+def add_s(words)
+  words.collect do |word|
+    if words[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
+     
