@@ -29,3 +29,11 @@ end
 def find_a(words)
   words.select { |word| word[0] == "a"  }
 end
+
+def sum_array(integers)
+  sum = 0
+  integers.each do |integer|
+    sum = sum + integer
+  end
+  sum
+end
