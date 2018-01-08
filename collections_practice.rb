@@ -21,6 +21,7 @@ def reverse_array(integers)
 end
 
 def kesha_maker(words)
-  word =[]
-
+  words.each do |word|
+    word[2]  == "$"
+  end
 end
