@@ -12,13 +12,15 @@ def sort_array_char_count(integers)
 end
 
 def swap_elements(integers)
-  integers[0], integers[1], integers[2] = integers[0], integers[2], integers[1]
+  integers[1], integers[2] = integers[2], integers[1]
+  integers
 end
 
 def reverse_array(integers)
   integers.reverse
 end
 
-def kesha_maker(word)
-  word[2] = "$"
+def kesha_maker(words)
+  word =[]
+
 end
